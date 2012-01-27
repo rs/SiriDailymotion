@@ -1,0 +1,6 @@
+[submodule "SDWebImage"]
+	path = SDWebImage
+	url = http://github.com/rs/SDWebImage
+[submodule "DailymotionSDK"]
+	path = DailymotionSDK
+	url = http://github.com/dailymotion/dailymotion-sdk-objc

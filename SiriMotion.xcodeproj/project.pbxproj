@@ -7,69 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5310F46B14D306B100AC1D18 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5310F46A14D306B100AC1D18 /* CoreFoundation.framework */; };
-		5310F47114D306B100AC1D18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5310F46F14D306B100AC1D18 /* InfoPlist.strings */; };
+		5310F4B314D3252500AC1D18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5310F4B114D3252500AC1D18 /* InfoPlist.strings */; };
+		5310F4C414D3256F00AC1D18 /* SiriMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5310F4BE14D3256F00AC1D18 /* SiriMotion.m */; };
+		5310F4C514D3256F00AC1D18 /* SiriMotionCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 5310F4C014D3256F00AC1D18 /* SiriMotionCommands.m */; };
+		5310F4C614D3256F00AC1D18 /* SiriMotionSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5310F4C214D3256F00AC1D18 /* SiriMotionSnippet.m */; };
+		5310F4C914D3259500AC1D18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5310F4C814D3259500AC1D18 /* UIKit.framework */; };
+		5310F4CB14D3269600AC1D18 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5310F4CA14D3269600AC1D18 /* CoreFoundation.framework */; };
+		5375085814D32B3E0074517F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5375085714D32B3E0074517F /* Foundation.framework */; };
+		5375087914D32FA30074517F /* libDailymotion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5375087814D32FA30074517F /* libDailymotion.a */; };
+		5375087B14D32FB20074517F /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5375087A14D32FB20074517F /* libSDWebImage.a */; };
+		53FB894214D35DFA0020B787 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FB894114D35DFA0020B787 /* CoreGraphics.framework */; };
+		53FB899D14D388590020B787 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 53FB899C14D388590020B787 /* placeholder.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5310F46714D306B100AC1D18 /* SiriMotion.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiriMotion.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		5310F46A14D306B100AC1D18 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		5310F46E14D306B100AC1D18 /* SiriMotion-Info.plist */ = {isa = PBXFileReference; path = "SiriMotion-Info.plist"; sourceTree = "<group>"; };
-		5310F47014D306B100AC1D18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5310F47214D306B100AC1D18 /* SiriMotion-Prefix.pch */ = {isa = PBXFileReference; path = "SiriMotion-Prefix.pch"; sourceTree = "<group>"; };
+		5310F4A914D3252400AC1D18 /* SiriMotion.assistantExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiriMotion.assistantExtension; sourceTree = BUILT_PRODUCTS_DIR; };
+		5310F4B014D3252500AC1D18 /* SiriMotion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SiriMotion-Info.plist"; sourceTree = "<group>"; };
+		5310F4B214D3252500AC1D18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5310F4B414D3252500AC1D18 /* SiriMotion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SiriMotion-Prefix.pch"; sourceTree = "<group>"; };
+		5310F4BD14D3256F00AC1D18 /* SiriMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriMotion.h; sourceTree = "<group>"; };
+		5310F4BE14D3256F00AC1D18 /* SiriMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriMotion.m; sourceTree = "<group>"; };
+		5310F4BF14D3256F00AC1D18 /* SiriMotionCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriMotionCommands.h; sourceTree = "<group>"; };
+		5310F4C014D3256F00AC1D18 /* SiriMotionCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriMotionCommands.m; sourceTree = "<group>"; };
+		5310F4C114D3256F00AC1D18 /* SiriMotionSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriMotionSnippet.h; sourceTree = "<group>"; };
+		5310F4C214D3256F00AC1D18 /* SiriMotionSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriMotionSnippet.m; sourceTree = "<group>"; };
+		5310F4C314D3256F00AC1D18 /* SiriObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriObjects.h; sourceTree = "<group>"; };
+		5310F4C814D3259500AC1D18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5310F4CA14D3269600AC1D18 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		5375085714D32B3E0074517F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5375087814D32FA30074517F /* libDailymotion.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDailymotion.a; path = "../../Library/Developer/Xcode/DerivedData/SiriMotion-deyaoamvvdlwccgzxnvbwpdsmxix/Build/Products/Debug-iphoneos/libDailymotion.a"; sourceTree = "<group>"; };
+		5375087A14D32FB20074517F /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../Library/Developer/Xcode/DerivedData/SiriMotion-deyaoamvvdlwccgzxnvbwpdsmxix/Build/Products/Debug-iphoneos/libSDWebImage.a"; sourceTree = "<group>"; };
+		53FB894114D35DFA0020B787 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		53FB899C14D388590020B787 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5310F46414D306B100AC1D18 /* Frameworks */ = {
+		5310F4A614D3252400AC1D18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5310F46B14D306B100AC1D18 /* CoreFoundation.framework in Frameworks */,
+				5375087B14D32FB20074517F /* libSDWebImage.a in Frameworks */,
+				5375087914D32FA30074517F /* libDailymotion.a in Frameworks */,
+				5375085814D32B3E0074517F /* Foundation.framework in Frameworks */,
+				5310F4CB14D3269600AC1D18 /* CoreFoundation.framework in Frameworks */,
+				5310F4C914D3259500AC1D18 /* UIKit.framework in Frameworks */,
+				53FB894214D35DFA0020B787 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5310F45C14D306B100AC1D18 = {
+		5310F49E14D3252400AC1D18 = {
 			isa = PBXGroup;
 			children = (
-				5310F46C14D306B100AC1D18 /* SiriMotion */,
-				5310F46914D306B100AC1D18 /* Frameworks */,
-				5310F46814D306B100AC1D18 /* Products */,
+				5310F4AE14D3252500AC1D18 /* SiriMotion */,
+				5310F4AB14D3252400AC1D18 /* Frameworks */,
+				5310F4AA14D3252400AC1D18 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5310F46814D306B100AC1D18 /* Products */ = {
+		5310F4AA14D3252400AC1D18 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5310F46714D306B100AC1D18 /* SiriMotion.bundle */,
+				5310F4A914D3252400AC1D18 /* SiriMotion.assistantExtension */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5310F46914D306B100AC1D18 /* Frameworks */ = {
+		5310F4AB14D3252400AC1D18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5310F46A14D306B100AC1D18 /* CoreFoundation.framework */,
+				53FB894114D35DFA0020B787 /* CoreGraphics.framework */,
+				5375087A14D32FB20074517F /* libSDWebImage.a */,
+				5375087814D32FA30074517F /* libDailymotion.a */,
+				5375085714D32B3E0074517F /* Foundation.framework */,
+				5310F4CA14D3269600AC1D18 /* CoreFoundation.framework */,
+				5310F4C814D3259500AC1D18 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5310F46C14D306B100AC1D18 /* SiriMotion */ = {
+		5310F4AE14D3252500AC1D18 /* SiriMotion */ = {
 			isa = PBXGroup;
 			children = (
-				5310F46D14D306B100AC1D18 /* Supporting Files */,
+				5310F4BD14D3256F00AC1D18 /* SiriMotion.h */,
+				5310F4BE14D3256F00AC1D18 /* SiriMotion.m */,
+				5310F4BF14D3256F00AC1D18 /* SiriMotionCommands.h */,
+				5310F4C014D3256F00AC1D18 /* SiriMotionCommands.m */,
+				5310F4C114D3256F00AC1D18 /* SiriMotionSnippet.h */,
+				5310F4C214D3256F00AC1D18 /* SiriMotionSnippet.m */,
+				5310F4C314D3256F00AC1D18 /* SiriObjects.h */,
+				53FB899C14D388590020B787 /* placeholder.png */,
+				5310F4AF14D3252500AC1D18 /* Supporting Files */,
 			);
 			path = SiriMotion;
 			sourceTree = "<group>";
 		};
-		5310F46D14D306B100AC1D18 /* Supporting Files */ = {
+		5310F4AF14D3252500AC1D18 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5310F46E14D306B100AC1D18 /* SiriMotion-Info.plist */,
-				5310F46F14D306B100AC1D18 /* InfoPlist.strings */,
-				5310F47214D306B100AC1D18 /* SiriMotion-Prefix.pch */,
+				5310F4B014D3252500AC1D18 /* SiriMotion-Info.plist */,
+				5310F4B114D3252500AC1D18 /* InfoPlist.strings */,
+				5310F4B414D3252500AC1D18 /* SiriMotion-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -77,13 +117,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5310F46614D306B100AC1D18 /* SiriMotion */ = {
+		5310F4A814D3252400AC1D18 /* SiriMotion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5310F47514D306B100AC1D18 /* Build configuration list for PBXNativeTarget "SiriMotion" */;
+			buildConfigurationList = 5310F4B714D3252500AC1D18 /* Build configuration list for PBXNativeTarget "SiriMotion" */;
 			buildPhases = (
-				5310F46314D306B100AC1D18 /* Sources */,
-				5310F46414D306B100AC1D18 /* Frameworks */,
-				5310F46514D306B100AC1D18 /* Resources */,
+				5310F4A514D3252400AC1D18 /* Sources */,
+				5310F4A614D3252400AC1D18 /* Frameworks */,
+				5310F4A714D3252400AC1D18 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -91,61 +131,65 @@
 			);
 			name = SiriMotion;
 			productName = SiriMotion;
-			productReference = 5310F46714D306B100AC1D18 /* SiriMotion.bundle */;
+			productReference = 5310F4A914D3252400AC1D18 /* SiriMotion.assistantExtension */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5310F45E14D306B100AC1D18 /* Project object */ = {
+		5310F4A014D3252400AC1D18 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = Dailymotion;
 			};
-			buildConfigurationList = 5310F46114D306B100AC1D18 /* Build configuration list for PBXProject "SiriMotion" */;
+			buildConfigurationList = 5310F4A314D3252400AC1D18 /* Build configuration list for PBXProject "SiriMotion" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 5310F45C14D306B100AC1D18;
-			productRefGroup = 5310F46814D306B100AC1D18 /* Products */;
+			mainGroup = 5310F49E14D3252400AC1D18;
+			productRefGroup = 5310F4AA14D3252400AC1D18 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5310F46614D306B100AC1D18 /* SiriMotion */,
+				5310F4A814D3252400AC1D18 /* SiriMotion */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5310F46514D306B100AC1D18 /* Resources */ = {
+		5310F4A714D3252400AC1D18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5310F47114D306B100AC1D18 /* InfoPlist.strings in Resources */,
+				5310F4B314D3252500AC1D18 /* InfoPlist.strings in Resources */,
+				53FB899D14D388590020B787 /* placeholder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5310F46314D306B100AC1D18 /* Sources */ = {
+		5310F4A514D3252400AC1D18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5310F4C414D3256F00AC1D18 /* SiriMotion.m in Sources */,
+				5310F4C514D3256F00AC1D18 /* SiriMotionCommands.m in Sources */,
+				5310F4C614D3256F00AC1D18 /* SiriMotionSnippet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5310F46F14D306B100AC1D18 /* InfoPlist.strings */ = {
+		5310F4B114D3252500AC1D18 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5310F47014D306B100AC1D18 /* en */,
+				5310F4B214D3252500AC1D18 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -153,11 +197,12 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5310F47314D306B100AC1D18 /* Debug */ = {
+		5310F4B514D3252500AC1D18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -179,11 +224,12 @@
 			};
 			name = Debug;
 		};
-		5310F47414D306B100AC1D18 /* Release */ = {
+		5310F4B614D3252500AC1D18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -198,51 +244,74 @@
 			};
 			name = Release;
 		};
-		5310F47614D306B100AC1D18 /* Debug */ = {
+		5310F4B814D3252500AC1D18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SiriMotion/SiriMotion-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "SiriMotion/SiriMotion-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/SiriMotion-deyaoamvvdlwccgzxnvbwpdsmxix/Build/Products/Debug-iphoneos\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				WRAPPER_EXTENSION = assistantExtension;
 			};
 			name = Debug;
 		};
-		5310F47714D306B100AC1D18 /* Release */ = {
+		5310F4B914D3252500AC1D18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SiriMotion/SiriMotion-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "SiriMotion/SiriMotion-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/SiriMotion-deyaoamvvdlwccgzxnvbwpdsmxix/Build/Products/Debug-iphoneos\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				WRAPPER_EXTENSION = assistantExtension;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5310F46114D306B100AC1D18 /* Build configuration list for PBXProject "SiriMotion" */ = {
+		5310F4A314D3252400AC1D18 /* Build configuration list for PBXProject "SiriMotion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5310F47314D306B100AC1D18 /* Debug */,
-				5310F47414D306B100AC1D18 /* Release */,
+				5310F4B514D3252500AC1D18 /* Debug */,
+				5310F4B614D3252500AC1D18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5310F47514D306B100AC1D18 /* Build configuration list for PBXNativeTarget "SiriMotion" */ = {
+		5310F4B714D3252500AC1D18 /* Build configuration list for PBXNativeTarget "SiriMotion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5310F47614D306B100AC1D18 /* Debug */,
-				5310F47714D306B100AC1D18 /* Release */,
+				5310F4B814D3252500AC1D18 /* Debug */,
+				5310F4B914D3252500AC1D18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5310F45E14D306B100AC1D18 /* Project object */;
+	rootObject = 5310F4A014D3252400AC1D18 /* Project object */;
 }
