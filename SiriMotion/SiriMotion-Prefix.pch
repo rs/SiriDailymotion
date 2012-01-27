@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SiriMotion' target in the 'SiriMotion' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
