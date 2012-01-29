@@ -7,109 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5310F4B314D3252500AC1D18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5310F4B114D3252500AC1D18 /* InfoPlist.strings */; };
-		5310F4C414D3256F00AC1D18 /* SiriMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5310F4BE14D3256F00AC1D18 /* SiriMotion.m */; };
-		5310F4C514D3256F00AC1D18 /* SiriMotionCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 5310F4C014D3256F00AC1D18 /* SiriMotionCommands.m */; };
-		5310F4C614D3256F00AC1D18 /* SiriMotionSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5310F4C214D3256F00AC1D18 /* SiriMotionSnippet.m */; };
-		5310F4C914D3259500AC1D18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5310F4C814D3259500AC1D18 /* UIKit.framework */; };
-		5310F4CB14D3269600AC1D18 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5310F4CA14D3269600AC1D18 /* CoreFoundation.framework */; };
-		5375085814D32B3E0074517F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5375085714D32B3E0074517F /* Foundation.framework */; };
-		5375087914D32FA30074517F /* libDailymotion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5375087814D32FA30074517F /* libDailymotion.a */; };
-		5375087B14D32FB20074517F /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5375087A14D32FB20074517F /* libSDWebImage.a */; };
-		53FB894214D35DFA0020B787 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FB894114D35DFA0020B787 /* CoreGraphics.framework */; };
-		53FB899D14D388590020B787 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 53FB899C14D388590020B787 /* placeholder.png */; };
+		53029A2C14D59A1B001BF4A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53029A2A14D59A1B001BF4A4 /* InfoPlist.strings */; };
+		53029A4A14D59A9D001BF4A4 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 53029A4214D59A9D001BF4A4 /* placeholder.png */; };
+		53029A4B14D59A9D001BF4A4 /* SiriMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 53029A4414D59A9D001BF4A4 /* SiriMotion.m */; };
+		53029A4C14D59A9D001BF4A4 /* SiriMotionCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 53029A4614D59A9D001BF4A4 /* SiriMotionCommands.m */; };
+		53029A4D14D59A9D001BF4A4 /* SiriMotionSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 53029A4814D59A9D001BF4A4 /* SiriMotionSnippet.m */; };
+		53029A5114D59ADE001BF4A4 /* libDailymotion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53029A4F14D59ADE001BF4A4 /* libDailymotion.a */; };
+		53029A5214D59ADE001BF4A4 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53029A5014D59ADE001BF4A4 /* libSDWebImage.a */; };
+		53029A5414D59B90001BF4A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53029A5314D59B90001BF4A4 /* CoreGraphics.framework */; };
+		53029A5514D59C50001BF4A4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53029A2514D59A1B001BF4A4 /* CoreFoundation.framework */; };
+		53029A5714D59C50001BF4A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53029A5614D59C50001BF4A4 /* Foundation.framework */; };
+		53029A5914D59C7A001BF4A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53029A5814D59C7A001BF4A4 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5310F4A914D3252400AC1D18 /* SiriMotion.assistantExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiriMotion.assistantExtension; sourceTree = BUILT_PRODUCTS_DIR; };
-		5310F4B014D3252500AC1D18 /* SiriMotion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SiriMotion-Info.plist"; sourceTree = "<group>"; };
-		5310F4B214D3252500AC1D18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5310F4B414D3252500AC1D18 /* SiriMotion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SiriMotion-Prefix.pch"; sourceTree = "<group>"; };
-		5310F4BD14D3256F00AC1D18 /* SiriMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriMotion.h; sourceTree = "<group>"; };
-		5310F4BE14D3256F00AC1D18 /* SiriMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriMotion.m; sourceTree = "<group>"; };
-		5310F4BF14D3256F00AC1D18 /* SiriMotionCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriMotionCommands.h; sourceTree = "<group>"; };
-		5310F4C014D3256F00AC1D18 /* SiriMotionCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriMotionCommands.m; sourceTree = "<group>"; };
-		5310F4C114D3256F00AC1D18 /* SiriMotionSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriMotionSnippet.h; sourceTree = "<group>"; };
-		5310F4C214D3256F00AC1D18 /* SiriMotionSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriMotionSnippet.m; sourceTree = "<group>"; };
-		5310F4C314D3256F00AC1D18 /* SiriObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriObjects.h; sourceTree = "<group>"; };
-		5310F4C814D3259500AC1D18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		5310F4CA14D3269600AC1D18 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		5375085714D32B3E0074517F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5375087814D32FA30074517F /* libDailymotion.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDailymotion.a; path = "../../Library/Developer/Xcode/DerivedData/SiriMotion-deyaoamvvdlwccgzxnvbwpdsmxix/Build/Products/Debug-iphoneos/libDailymotion.a"; sourceTree = "<group>"; };
-		5375087A14D32FB20074517F /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../Library/Developer/Xcode/DerivedData/SiriMotion-deyaoamvvdlwccgzxnvbwpdsmxix/Build/Products/Debug-iphoneos/libSDWebImage.a"; sourceTree = "<group>"; };
-		53FB894114D35DFA0020B787 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		53FB899C14D388590020B787 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		53029A2214D59A1B001BF4A4 /* SiriMotion.assistantExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiriMotion.assistantExtension; sourceTree = BUILT_PRODUCTS_DIR; };
+		53029A2514D59A1B001BF4A4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		53029A2914D59A1B001BF4A4 /* SiriMotion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SiriMotion-Info.plist"; sourceTree = "<group>"; };
+		53029A2B14D59A1B001BF4A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53029A2D14D59A1B001BF4A4 /* SiriMotion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SiriMotion-Prefix.pch"; sourceTree = "<group>"; };
+		53029A4214D59A9D001BF4A4 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		53029A4314D59A9D001BF4A4 /* SiriMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriMotion.h; sourceTree = "<group>"; };
+		53029A4414D59A9D001BF4A4 /* SiriMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriMotion.m; sourceTree = "<group>"; };
+		53029A4514D59A9D001BF4A4 /* SiriMotionCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriMotionCommands.h; sourceTree = "<group>"; };
+		53029A4614D59A9D001BF4A4 /* SiriMotionCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriMotionCommands.m; sourceTree = "<group>"; };
+		53029A4714D59A9D001BF4A4 /* SiriMotionSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriMotionSnippet.h; sourceTree = "<group>"; };
+		53029A4814D59A9D001BF4A4 /* SiriMotionSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriMotionSnippet.m; sourceTree = "<group>"; };
+		53029A4914D59A9D001BF4A4 /* SiriObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriObjects.h; sourceTree = "<group>"; };
+		53029A4F14D59ADE001BF4A4 /* libDailymotion.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDailymotion.a; path = "../../Library/Developer/Xcode/DerivedData/SiriMotion-gntckbqraildxjahcxgywdqnfofu/Build/Products/Debug-iphoneos/libDailymotion.a"; sourceTree = "<group>"; };
+		53029A5014D59ADE001BF4A4 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../Library/Developer/Xcode/DerivedData/SiriMotion-gntckbqraildxjahcxgywdqnfofu/Build/Products/Debug-iphoneos/libSDWebImage.a"; sourceTree = "<group>"; };
+		53029A5314D59B90001BF4A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		53029A5614D59C50001BF4A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53029A5814D59C7A001BF4A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5310F4A614D3252400AC1D18 /* Frameworks */ = {
+		53029A1F14D59A1B001BF4A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5375087B14D32FB20074517F /* libSDWebImage.a in Frameworks */,
-				5375087914D32FA30074517F /* libDailymotion.a in Frameworks */,
-				5375085814D32B3E0074517F /* Foundation.framework in Frameworks */,
-				5310F4CB14D3269600AC1D18 /* CoreFoundation.framework in Frameworks */,
-				5310F4C914D3259500AC1D18 /* UIKit.framework in Frameworks */,
-				53FB894214D35DFA0020B787 /* CoreGraphics.framework in Frameworks */,
+				53029A5914D59C7A001BF4A4 /* UIKit.framework in Frameworks */,
+				53029A5714D59C50001BF4A4 /* Foundation.framework in Frameworks */,
+				53029A5514D59C50001BF4A4 /* CoreFoundation.framework in Frameworks */,
+				53029A5414D59B90001BF4A4 /* CoreGraphics.framework in Frameworks */,
+				53029A5114D59ADE001BF4A4 /* libDailymotion.a in Frameworks */,
+				53029A5214D59ADE001BF4A4 /* libSDWebImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5310F49E14D3252400AC1D18 = {
+		53029A1714D59A1B001BF4A4 = {
 			isa = PBXGroup;
 			children = (
-				5310F4AE14D3252500AC1D18 /* SiriMotion */,
-				5310F4AB14D3252400AC1D18 /* Frameworks */,
-				5310F4AA14D3252400AC1D18 /* Products */,
+				53029A2714D59A1B001BF4A4 /* SiriMotion */,
+				53029A2414D59A1B001BF4A4 /* Frameworks */,
+				53029A2314D59A1B001BF4A4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5310F4AA14D3252400AC1D18 /* Products */ = {
+		53029A2314D59A1B001BF4A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5310F4A914D3252400AC1D18 /* SiriMotion.assistantExtension */,
+				53029A2214D59A1B001BF4A4 /* SiriMotion.assistantExtension */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5310F4AB14D3252400AC1D18 /* Frameworks */ = {
+		53029A2414D59A1B001BF4A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53FB894114D35DFA0020B787 /* CoreGraphics.framework */,
-				5375087A14D32FB20074517F /* libSDWebImage.a */,
-				5375087814D32FA30074517F /* libDailymotion.a */,
-				5375085714D32B3E0074517F /* Foundation.framework */,
-				5310F4CA14D3269600AC1D18 /* CoreFoundation.framework */,
-				5310F4C814D3259500AC1D18 /* UIKit.framework */,
+				53029A4F14D59ADE001BF4A4 /* libDailymotion.a */,
+				53029A5014D59ADE001BF4A4 /* libSDWebImage.a */,
+				53029A5814D59C7A001BF4A4 /* UIKit.framework */,
+				53029A5614D59C50001BF4A4 /* Foundation.framework */,
+				53029A5314D59B90001BF4A4 /* CoreGraphics.framework */,
+				53029A2514D59A1B001BF4A4 /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5310F4AE14D3252500AC1D18 /* SiriMotion */ = {
+		53029A2714D59A1B001BF4A4 /* SiriMotion */ = {
 			isa = PBXGroup;
 			children = (
-				5310F4BD14D3256F00AC1D18 /* SiriMotion.h */,
-				5310F4BE14D3256F00AC1D18 /* SiriMotion.m */,
-				5310F4BF14D3256F00AC1D18 /* SiriMotionCommands.h */,
-				5310F4C014D3256F00AC1D18 /* SiriMotionCommands.m */,
-				5310F4C114D3256F00AC1D18 /* SiriMotionSnippet.h */,
-				5310F4C214D3256F00AC1D18 /* SiriMotionSnippet.m */,
-				5310F4C314D3256F00AC1D18 /* SiriObjects.h */,
-				53FB899C14D388590020B787 /* placeholder.png */,
-				5310F4AF14D3252500AC1D18 /* Supporting Files */,
+				53029A4214D59A9D001BF4A4 /* placeholder.png */,
+				53029A4314D59A9D001BF4A4 /* SiriMotion.h */,
+				53029A4414D59A9D001BF4A4 /* SiriMotion.m */,
+				53029A4514D59A9D001BF4A4 /* SiriMotionCommands.h */,
+				53029A4614D59A9D001BF4A4 /* SiriMotionCommands.m */,
+				53029A4714D59A9D001BF4A4 /* SiriMotionSnippet.h */,
+				53029A4814D59A9D001BF4A4 /* SiriMotionSnippet.m */,
+				53029A4914D59A9D001BF4A4 /* SiriObjects.h */,
+				53029A2814D59A1B001BF4A4 /* Supporting Files */,
 			);
 			path = SiriMotion;
 			sourceTree = "<group>";
 		};
-		5310F4AF14D3252500AC1D18 /* Supporting Files */ = {
+		53029A2814D59A1B001BF4A4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5310F4B014D3252500AC1D18 /* SiriMotion-Info.plist */,
-				5310F4B114D3252500AC1D18 /* InfoPlist.strings */,
-				5310F4B414D3252500AC1D18 /* SiriMotion-Prefix.pch */,
+				53029A2914D59A1B001BF4A4 /* SiriMotion-Info.plist */,
+				53029A2A14D59A1B001BF4A4 /* InfoPlist.strings */,
+				53029A2D14D59A1B001BF4A4 /* SiriMotion-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,13 +117,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5310F4A814D3252400AC1D18 /* SiriMotion */ = {
+		53029A2114D59A1B001BF4A4 /* SiriMotion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5310F4B714D3252500AC1D18 /* Build configuration list for PBXNativeTarget "SiriMotion" */;
+			buildConfigurationList = 53029A3014D59A1B001BF4A4 /* Build configuration list for PBXNativeTarget "SiriMotion" */;
 			buildPhases = (
-				5310F4A514D3252400AC1D18 /* Sources */,
-				5310F4A614D3252400AC1D18 /* Frameworks */,
-				5310F4A714D3252400AC1D18 /* Resources */,
+				53029A1E14D59A1B001BF4A4 /* Sources */,
+				53029A1F14D59A1B001BF4A4 /* Frameworks */,
+				53029A2014D59A1B001BF4A4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -131,65 +131,65 @@
 			);
 			name = SiriMotion;
 			productName = SiriMotion;
-			productReference = 5310F4A914D3252400AC1D18 /* SiriMotion.assistantExtension */;
+			productReference = 53029A2214D59A1B001BF4A4 /* SiriMotion.assistantExtension */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5310F4A014D3252400AC1D18 /* Project object */ = {
+		53029A1914D59A1B001BF4A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = Dailymotion;
 			};
-			buildConfigurationList = 5310F4A314D3252400AC1D18 /* Build configuration list for PBXProject "SiriMotion" */;
+			buildConfigurationList = 53029A1C14D59A1B001BF4A4 /* Build configuration list for PBXProject "SiriMotion" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 5310F49E14D3252400AC1D18;
-			productRefGroup = 5310F4AA14D3252400AC1D18 /* Products */;
+			mainGroup = 53029A1714D59A1B001BF4A4;
+			productRefGroup = 53029A2314D59A1B001BF4A4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5310F4A814D3252400AC1D18 /* SiriMotion */,
+				53029A2114D59A1B001BF4A4 /* SiriMotion */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5310F4A714D3252400AC1D18 /* Resources */ = {
+		53029A2014D59A1B001BF4A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5310F4B314D3252500AC1D18 /* InfoPlist.strings in Resources */,
-				53FB899D14D388590020B787 /* placeholder.png in Resources */,
+				53029A2C14D59A1B001BF4A4 /* InfoPlist.strings in Resources */,
+				53029A4A14D59A9D001BF4A4 /* placeholder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5310F4A514D3252400AC1D18 /* Sources */ = {
+		53029A1E14D59A1B001BF4A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5310F4C414D3256F00AC1D18 /* SiriMotion.m in Sources */,
-				5310F4C514D3256F00AC1D18 /* SiriMotionCommands.m in Sources */,
-				5310F4C614D3256F00AC1D18 /* SiriMotionSnippet.m in Sources */,
+				53029A4B14D59A9D001BF4A4 /* SiriMotion.m in Sources */,
+				53029A4C14D59A9D001BF4A4 /* SiriMotionCommands.m in Sources */,
+				53029A4D14D59A9D001BF4A4 /* SiriMotionSnippet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5310F4B114D3252500AC1D18 /* InfoPlist.strings */ = {
+		53029A2A14D59A1B001BF4A4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5310F4B214D3252500AC1D18 /* en */,
+				53029A2B14D59A1B001BF4A4 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -197,11 +197,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5310F4B514D3252500AC1D18 /* Debug */ = {
+		53029A2E14D59A1B001BF4A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -218,17 +218,20 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		5310F4B614D3252500AC1D18 /* Release */ = {
+		53029A2F14D59A1B001BF4A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -239,52 +242,43 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
-		5310F4B814D3252500AC1D18 /* Debug */ = {
+		53029A3114D59A1B001BF4A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SiriMotion/SiriMotion-Prefix.pch";
-				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "SiriMotion/SiriMotion-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/SiriMotion-deyaoamvvdlwccgzxnvbwpdsmxix/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/SiriMotion-gntckbqraildxjahcxgywdqnfofu/Build/Products/Debug-iphoneos\"",
 				);
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				WRAPPER_EXTENSION = assistantExtension;
 			};
 			name = Debug;
 		};
-		5310F4B914D3252500AC1D18 /* Release */ = {
+		53029A3214D59A1B001BF4A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SiriMotion/SiriMotion-Prefix.pch";
-				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "SiriMotion/SiriMotion-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/SiriMotion-deyaoamvvdlwccgzxnvbwpdsmxix/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/SiriMotion-gntckbqraildxjahcxgywdqnfofu/Build/Products/Debug-iphoneos\"",
 				);
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				WRAPPER_EXTENSION = assistantExtension;
 			};
@@ -293,25 +287,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5310F4A314D3252400AC1D18 /* Build configuration list for PBXProject "SiriMotion" */ = {
+		53029A1C14D59A1B001BF4A4 /* Build configuration list for PBXProject "SiriMotion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5310F4B514D3252500AC1D18 /* Debug */,
-				5310F4B614D3252500AC1D18 /* Release */,
+				53029A2E14D59A1B001BF4A4 /* Debug */,
+				53029A2F14D59A1B001BF4A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5310F4B714D3252500AC1D18 /* Build configuration list for PBXNativeTarget "SiriMotion" */ = {
+		53029A3014D59A1B001BF4A4 /* Build configuration list for PBXNativeTarget "SiriMotion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5310F4B814D3252500AC1D18 /* Debug */,
-				5310F4B914D3252500AC1D18 /* Release */,
+				53029A3114D59A1B001BF4A4 /* Debug */,
+				53029A3214D59A1B001BF4A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5310F4A014D3252400AC1D18 /* Project object */;
+	rootObject = 53029A1914D59A1B001BF4A4 /* Project object */;
 }
