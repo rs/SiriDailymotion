@@ -56,6 +56,10 @@
         {
             continue;
         }
+        else if ([str isEqualToString:@"on"] || [str isEqualToString:@"sur"])
+        {
+            continue;
+        }
         else
         {
             [terms addObject:str];
